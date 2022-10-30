@@ -138,3 +138,21 @@
 ![Search](https://user-images.githubusercontent.com/70960594/198539983-01ee0550-00eb-4a9f-ab5b-fd2c4a6c6ed6.gif)
   
 </div>
+
+
+---
+
+### 기능 구현 사항 (신인혁)
+
+## 회원가입 
+1. router에 post/signup을 생성해서 controller에 catchAsync을 적용하고 name, email, residentNumberFront, residentNumberBack, password을 req.body에 적용해서 정규표현식을 적용해서 database에 생성하였습니다.
+
+## 로그인 
+1. email, password를 적용하면 token을 생성하고 user가 없을 경우에 에러를 발생하게 하였고 비밀번호가 일치하지 않을 경우에 에러를 발생하게 하였습니다.
+2. bcrypt을 사용하여서 암호화 하여서 database에서 get 할 수 있도록 하였습니다.
+
+## 구매 - 생성 (미등록)
+1. 로그인된 token을 받아서 user가 구매하려고한 물품을 조회하는 query문을 작성하였습니다.
+2. cart에 
+
+
