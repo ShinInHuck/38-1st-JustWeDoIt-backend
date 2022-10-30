@@ -153,6 +153,7 @@
 
 ## 구매 - 생성 (미등록)
 1. 로그인된 token을 받아서 user가 구매하려고한 물품을 조회하는 query문을 작성하였습니다.
-2. cart에 
+2. cart에 물품을 조회하는 query문을 작성을 작성해서 order에 정보를 database에 입력하였습니다.
+3. orderitem을 database에 저장하는 query문을 만들었습니다.
 
 
